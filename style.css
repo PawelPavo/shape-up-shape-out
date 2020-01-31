@@ -3,7 +3,7 @@
     position: relative;
     height: 0;
     width: 600px;
-    background-color: chocolate;
+    background-color: coral;
     margin-left: 50vh;
     transition: 0.5s;
 }
@@ -17,20 +17,20 @@
 #square {
     position: absolute;
     cursor: pointer;
-    background-color: darkgrey;
+    background-color: red;
 }
 
 #rectangle {
     position: absolute;
     cursor: pointer;
-    background-color: darkseagreen;
+    background-color: green;
 }
 
 #circle {
     position: absolute;
     cursor: pointer;
     border-radius: 50%;
-    background-color: green;
+    background-color: purple;
 
 }
 
@@ -60,4 +60,3 @@
     font-size: 40px;
     margin-right: 40px;
 } 
-
