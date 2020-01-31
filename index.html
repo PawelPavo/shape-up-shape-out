@@ -1,0 +1,145 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    <!-- My Stylesheet-->
+    <link rel="stylesheet" href="style.css">
+    <title>Shape Up or Shape Out</title>
+</head>
+
+<body>
+    <!-- ============================= START BUTTON =============================== -->
+    <button id="start-btn" type="button" class="btn btn-primary btn-lg btn-block mb-5">CLICK TO PLAY</button>
+    <div id="side-bar" class="side-bar">
+        <a href="#" id="close-btn">&times;</a>
+
+        <!-- ================================ INPUT ================================== -->
+
+
+        <!-- SQUARE -->
+        <div class="input-group mb-3">
+            <div class="input-group-prepend">
+                <button id="square-btn" class="btn btn-primary" type="button" id="button-addon1">Square</button>
+            </div>
+            <input id="square-input" type="text" class="form-control" placeholder="Enter Height"
+                aria-label="Example text with button addon" aria-describedby="button-addon1">
+        </div>
+        <!-- <button id="square-btn">Square</button>
+        <input id="square-input" type="text" name="height" placeholder="Enter a number"> -->
+
+        <!-- RECTANGLE -->
+        <div class="input-group mb-3">
+            <div class="input-group-prepend">
+                <button id="rectangle-btn" class="btn btn-primary" type="button" id="button-addon1">Rectangle</button>
+            </div>
+            <input id="rectangle-input-1" type="text" class="form-control" placeholder="Enter Height"
+                aria-label="Example text with button addon" aria-describedby="button-addon1">
+            <input id="rectangle-input-2" type="text" class="form-control" placeholder="Enter Width"
+                aria-label="Example text with button addon" aria-describedby="button-addon1">
+
+        </div>
+        <!-- <button id="rectangle-btn">Rectangle</button>
+        <input id="rectangle-input-1" type="text" name="height" placeholder="Enter a number">
+        <input id="rectangle-input-2" type="text" name="width" placeholder="Enter a number"> <br> -->
+
+        <!-- CIRCLE -->
+        <div class="input-group mb-3">
+            <div class="input-group-prepend">
+                <button id="circle-btn" class="btn btn-primary" type="button" id="button-addon1">Circle</button>
+            </div>
+            <input id="circle-input" type="text" class="form-control" placeholder="Enter Radius"
+                aria-label="Example text with button addon" aria-describedby="button-addon1">
+        </div>
+
+        <!--  <button id="circle-btn">Circle</button>
+        <input id="circle-input" type="text" name="height" placeholder="Enter a number"> -->
+
+        <!-- TRIANGLE -->
+
+        <div class="input-group mb-5">
+            <div class="input-group-prepend">
+                <button id="triangle-btn" class="btn btn-primary" type="button" id="button-addon1">Triangle</button>
+            </div>
+            <input id="triangle-input" type="text" class="form-control" placeholder="Enter Height"
+                aria-label="Example text with button addon" aria-describedby="button-addon1">
+        </div>
+
+        <!-- <button id="triangle-btn">Triangle</button>
+        <input id="triangle-input" type="text" name="radius" placeholder="Enter a number"> -->
+
+        <!-- ================================ OUTPUT ================================== -->
+
+        <!-- name -->
+        <div class="input-group mb-2">
+        <div class="input-group-prepend">
+                <span class="input-group-text">Name</span>
+            </div>
+            <input id="name-output" type="text">
+        </div>
+
+        <!-- radius -->
+        <div class="input-group mb-2">
+            <div class="input-group-prepend">
+                <span class="input-group-text">Radius</span>
+            </div>
+            <input id="radius-output" type="text">
+        </div>
+
+        <!-- height -->
+        <div class="input-group mb-2">
+            <div class="input-group-prepend">
+                <span class="input-group-text">Height</span>
+            </div>
+            <input id="height-output" type="text">
+        </div>
+
+        <!-- width -->
+        <div class="input-group mb-2">
+            <div class="input-group-prepend">
+                <span class="input-group-text">Width</span>
+            </div>
+            <input id="width-output" type="text">
+        </div>
+
+        <!-- area -->
+        <div class="input-group mb-2">
+            <div class="input-group-prepend">
+                <span class="input-group-text">Area</span>
+            </div>
+            <input id="area-output" type="text">
+        </div>
+
+        <!-- perimeter -->
+        <div class="input-group mb-2">
+            <div class="input-group-prepend">
+                <span class="input-group-text">Perm</span>
+            </div>
+            <input id="perm-output" type="text">
+        </div>
+    </div>
+    </div>
+
+
+    <!-- display area -->
+    <div id="display-area"></div>
+
+
+
+
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+    <!-- My Script -->
+    <script src="script.js"></script>
+</body>
+
+</html>
