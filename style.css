@@ -1,9 +1,10 @@
 
+
 #display-area{
     position: relative;
     height: 0;
     width: 600px;
-    background-color: coral;
+    background-color: chocolate;
     margin-left: 50vh;
     transition: 0.5s;
 }
@@ -11,34 +12,28 @@
 .shape {
     position: absolute;
     cursor: pointer;
-    background-color: darkgreen;
 }
 
 #square {
-    position: absolute;
     cursor: pointer;
-    background-color: red;
+    background-color: darkgrey;
 }
 
 #rectangle {
-    position: absolute;
     cursor: pointer;
     background-color: green;
 }
 
 #circle {
-    position: absolute;
     cursor: pointer;
     border-radius: 50%;
-    background-color: purple;
+    background-color: green;
 
 }
 
 #triangle {
-    position: absolute;
     cursor: pointer;
     border-left: 0px solid transparent;
-    background-color: transparent;
 }
 
 .side-bar{
@@ -60,3 +55,4 @@
     font-size: 40px;
     margin-right: 40px;
 } 
+
